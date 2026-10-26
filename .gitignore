@@ -1,0 +1,37 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# testing
+/coverage
+/test-results/
+/playwright-report/
+/blob-report/
+
+# next.js
+/.next/
+/.next-e2e/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+
+# generated Prisma client (rebuilt by `npm install` / `prisma generate`)
+/src/generated/
+
+# local uploads written by the "local" storage driver
+/storage/
+/.test-storage/
+/.e2e-storage/
+
+# env files: never commit secrets. .env.example is the template.
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+.vercel
